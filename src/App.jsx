@@ -4,7 +4,7 @@ import TripMap from './TripMap'
 import ELDLogSheet from './ELDLogSheet'
 import './index.css'
 
-const API_BASE = import.meta.env.VITE_API_URL || 'https://eld-app-backend.onrender.com/api'
+const API_BASE = import.meta.env.VITE_API_URL || 'https://eld-app-backend.onrender.com/api/'
 
 const STOP_TYPE_CONFIG = {
   start: { color: '#4f8ef7', bg: '#1a2a4a', label: 'Start', icon: '🚛' },
