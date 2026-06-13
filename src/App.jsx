@@ -4,16 +4,16 @@ import TripMap from './TripMap'
 import ELDLogSheet from './ELDLogSheet'
 import './index.css'
 
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:8000/api'
+const API_BASE = import.meta.env.VITE_API_URL || 'https://eld-app-backend.onrender.com/api'
 
 const STOP_TYPE_CONFIG = {
-  start:    { color: '#4f8ef7', bg: '#1a2a4a', label: 'Start',    icon: '🚛' },
-  pickup:   { color: '#22c55e', bg: '#142a1e', label: 'Pickup',   icon: '📦' },
-  dropoff:  { color: '#f59e0b', bg: '#2a1e0a', label: 'Dropoff',  icon: '🏁' },
-  rest:     { color: '#7c3aed', bg: '#1e1035', label: 'Rest',     icon: '🛏️' },
-  sleeper:  { color: '#7c3aed', bg: '#1e1035', label: 'Sleeper',  icon: '🛏️' },
-  break:    { color: '#64748b', bg: '#1a2030', label: 'Break',    icon: '⏸️' },
-  fuel:     { color: '#ec4899', bg: '#2a0f1e', label: 'Fuel',     icon: '⛽' },
+  start: { color: '#4f8ef7', bg: '#1a2a4a', label: 'Start', icon: '🚛' },
+  pickup: { color: '#22c55e', bg: '#142a1e', label: 'Pickup', icon: '📦' },
+  dropoff: { color: '#f59e0b', bg: '#2a1e0a', label: 'Dropoff', icon: '🏁' },
+  rest: { color: '#7c3aed', bg: '#1e1035', label: 'Rest', icon: '🛏️' },
+  sleeper: { color: '#7c3aed', bg: '#1e1035', label: 'Sleeper', icon: '🛏️' },
+  break: { color: '#64748b', bg: '#1a2030', label: 'Break', icon: '⏸️' },
+  fuel: { color: '#ec4899', bg: '#2a0f1e', label: 'Fuel', icon: '⛽' },
 }
 
 const STATUS_COLORS = {
